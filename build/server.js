@@ -7,9 +7,7 @@ const webpackHotMiddleware = require('webpack-hot-middleware');
 const webpackConfig = require('../webpack.config');
 const bundler = webpack(webpackConfig);
 const path = require('path');
-/**
- * Run Browsersync and use middleware for Hot Module Replacement
- */
+
 browserSync({
     server: {
         baseDir: 'src',

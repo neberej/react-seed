@@ -1,14 +1,13 @@
 # Seed project using latest goodies.
 
-I plan to keep this up-to-date with latest version.
 
-Current setup
+Current setup (all major releases)
 ---
 - React 16
-- Webpack
+- Webpack 4
 - Babel 7
-- React hot laoder
-- Browser sync
+- React hot loader 8
+- Browser sync 2
 
 
 

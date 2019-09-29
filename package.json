@@ -1,5 +1,5 @@
 {
-  "name": "webpack-browsersync-reacthotloader-react-redux",
+  "name": "react-seed",
   "version": "1.0.0",
   "description": "A seed react and redux project with browser sync, react hot-loader and webpack.",
   "main": "build/server.js",
