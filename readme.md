@@ -1,7 +1,8 @@
 # Seed project using latest goodies.
 
+I plan to keep this updated with major releases.
 
-Current setup (all major releases)
+Current setup.
 ---
 - React 16
 - Webpack 4

@@ -9,7 +9,7 @@ module.exports = {
     mode: env,
     devtool: '#eval-source-map',
 
-    entry: ['webpack/hot/dev-server', 'webpack-hot-middleware/client', './src/index'],
+    entry: ['react-hot-loader/patch', 'webpack/hot/dev-server', 'webpack-hot-middleware/client', './src/index'],
 
     output: {
       filename: '[name].bundle.js',
@@ -40,7 +40,7 @@ module.exports = {
         rules: [{
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loaders: ['react-hot-loader/webpack', 'babel-loader']
+                loaders: ['babel-loader']
             },
             {
                 test: /\.css$/,
