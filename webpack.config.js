@@ -31,7 +31,11 @@ module.exports = {
             ignoreOrder: false,
         })
     ],
-
+    resolve: {
+      alias: {
+        'react-dom': '@hot-loader/react-dom'
+      }
+    },
     module: {
         rules: [{
                 test: /\.js$/,

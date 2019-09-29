@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { hot } from 'react-hot-loader/root';
 
-export default class Home extends React.Component{
+class Home extends React.Component{
   render() {
     const { heading } = this.props;
 
@@ -9,6 +10,8 @@ export default class Home extends React.Component{
     );
   }
 }
+
+export default hot(Home);
 
 Home.defaultProps = {
   heading: 'Hello there'
